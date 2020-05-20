@@ -1,0 +1,81 @@
+body, .slider, #container, .slide_content{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#container {
+    position: relative;
+}
+
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#slide1 {
+    background-image: url('images/johnwick.jpg')
+}
+
+#slide2 {
+    background-image: url('images/avengers.jpg')
+}
+
+#slide3 {
+    background-image: url('images/sinister.jpg')
+}
+
+#slide4 {
+    background-image: url('images/rangasthalam.jpg')
+}
+#slide5 {
+    background-image: url('images/petta.jpg')
+}
+#slide6 {
+    background-image: url('images/kanche.jpg')
+}
+
+.slide_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide_content span {
+    font-size: 5rem;
+    color: white;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow_left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #ffffff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+
+#arrow_right{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #ffffff;
+    right: 0;
+    margin-right: 30px;
+}
+
+
+
+

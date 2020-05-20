@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 100vh;
+    
+}
+
+
+
+.container {
+    width: 400px;
+    height: 600px;
+    
+    
+    background-color: #fff;
+    max-width: 100%;
+}
+
+#form_control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#form_control input{
+    margin-top: 20px;
+    
+}
+
+.legend_1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input_name{
+    margin-left: 30px;
+    width: 220px;
+    height: 28px;
+    padding-left: 5px;
+}
+
+.input_age{
+    margin-left: 40px;
+    width: 220px;
+    height: 28px;
+    padding-left: 5px;
+}
+
+.input_date{
+    margin-left: 32px;
+    width: 220px;
+    height: 28px;
+    text-align: center;
+}
+.input_male, .input_female, .input_others{
+    margin-left: 18px;
+}
+
+.address_label{
+    position: absolute;
+    margin-top: 20px;
+}
+
+#address{
+    margin-top: 20px;
+    margin-left: 72px;
+}
+
+.input_pincode{
+    margin-left: 14px;
+    width: 220px;
+    height: 28px;
+    text-align: center;
+}
+
+.input_state{
+    margin-left: 33px;
+    width: 220px;
+    height: 28px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 25px;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+

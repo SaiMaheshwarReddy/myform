@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+.form_control {
+    background-color: black;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    
+    
+
+
+}
+.container {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 350px;
+   height: 416px;
+    max-width: 100%;
+
+}
+.converter_header {
+    margin-top: 0px;
+    background-color: black;
+    border-bottom: 1px solid black;
+    padding: 2px 0px;
+    color: white;
+}
+
+
+
+
+
+.input {
+    border-radius: 7px;
+    border: 2px solid #BDB8B5;
+    height: 30px;
+    text-align: center;
+    width: 200px;
+    font-size: large;
+    color: whitesmoke;
+}
+
+.font {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.centimeters_style {
+    margin-left: 0px;
+    background-color: #31A797;
+    padding: 12px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.inches_style {
+    background-color: #31A21D;
+    padding: 12px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.form_inches {
+    margin-left: 40px;
+}
+
+.foots_style {
+    background-color: #C61212;
+    padding: 12px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.form_foots {
+    margin-left: 44px;
+}
+
+
+.meters_style {
+    background-color: #89227E;
+    padding: 12px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.form_meters {
+    margin-left: 34px;
+}
+
+.kilometers_style {
+    background-color: #232981;
+    padding: 12px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+.form_kilometers {
+    margin-left: 3px;
+}
+
+#input_mm {
+    width: 350px;
+    height: 40px;
+    background-color: #8386AE;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    border: 2px solid #8386AE;
+}
+
+.mm_style {
+    background-color: white;
+    border-radius: 8px;
+}
+
+#output_cm {
+    background-color: #31A797;
+    border: #31A797;
+}
+
+#output_inches {
+    background-color: #31A21D;
+    border: #31A21D;
+}
+
+#output_foots {
+    background-color: #C61212;
+    border: #C61212;
+}
+
+#output_meters {
+    background-color: #89227E;
+    border: #89227E;
+}
+
+#output_km {
+    background-color: #232981;
+    border: #232981;
+}

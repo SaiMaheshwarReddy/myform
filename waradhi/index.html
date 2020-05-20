@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="POST" data-netlify="true" id="form_control">
+        <legend class="legend_1">Personal Information</legend>
+        <div class="name_div">
+        <label for="name">Name:</label>
+        <input type="text" class="input_name" placeholder="enter your name">
+    </div>
+    <div class="age_div">
+
+        <label for="age">Age:</label>
+        <input type="number" class="input_age" placeholder="enter your age">
+    </div>
+        <div class="dob_div">
+        <label for="dob">DOB:</label>
+        <input type="date" class="input_date">
+    </div>
+
+        <div class="gender_div">
+        <label for="gender">Gender:</label>
+
+             <input type="radio" class="input_male" name="gender">
+                <label for="male">Male</label>
+
+            <input type="radio" class="input_female" name="gender">
+                <label for="female">Female</label>
+
+             <input type="radio" class="input_others" name="gender">
+                 <label for="others">Others</label>
+                </div>
+
+                <div class="address_div">
+
+        <label for="address" class="address_label">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="4"></textarea>
+    </div>
+
+            <div class="pincode_div">
+
+        <label for="pincode">Pincode:</label>
+        <input type="number" class="input_pincode" placeholder="enter pincode">
+    </div>
+
+    <div class="state_div">
+
+        <label for="state">State:</label>
+        <input type="text" class="input_state" placeholder="enter state">
+    </div>
+
+
+        <div class="idproof_div">
+        <select name="idproof" id="idproof">
+            <option value="Adhaar">Adhaar</option>
+            <option value="Adhaar">PAN</option>
+            <option value="Adhaar">Passport</option>
+            <option value="Adhaar">Driving Licence</option>
+        </select>
+                &nbsp;&nbsp;
+
+            <input type="file" name="upload" id="input_upload" class="field">
+        </div>
+
+        <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+        </div>
+
+        <input type="submit" value="submit" class="btn">
+
+        
+    </form>
+</div>
+    
+</body>
+</html>
